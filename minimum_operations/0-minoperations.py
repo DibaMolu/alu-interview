@@ -16,10 +16,10 @@ def minOperations(n):
     paste = 0
     A_copied = 0
     while A < n:
-          if n % A == 0:
-               copyall += 1
-               A_copied = A
-          paste += 1
-          operations = copyall + paste
-          A += 1
+       if n % A == 0:
+            copyall += 1
+            A_copied = A
+       paste += 1
+       operations = copyall + paste
+       A += 1
      return operations
